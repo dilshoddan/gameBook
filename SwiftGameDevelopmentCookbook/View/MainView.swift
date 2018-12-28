@@ -40,8 +40,9 @@ class MainView: UIView {
         userNameLabel.text = "User Name:"
         
         userName = UITextField()
-        userName.backgroundColor = UIColor.lightGray
+        userName.backgroundColor = UIColor.white
         userName.borderStyle = .roundedRect
+        userName.clipsToBounds = true
         
         okButton = UIButton()
         okButton.setTitle("OK", for: .normal)
@@ -50,10 +51,12 @@ class MainView: UIView {
     }
     
     func SetConstraints(){
-        self.sv([userName, okButton])
+        self.sv([userNameLabel, userName, okButton])
+        userNameLabel.width(90%).height(5%).centerHorizontally()
         userName.width(90%).height(5%).centerHorizontally()
         okButton.width(90%).height(6%).centerHorizontally().centerVertically()
         self.layout(
+            |-userNameLabel-|,
             |-userName-|,
             10,
             |-okButton-|
