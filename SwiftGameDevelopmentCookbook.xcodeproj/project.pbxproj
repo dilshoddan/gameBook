@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE1E45A65A27BA8C8C50074 /* Pods_SwiftGameDevelopmentCookbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34565C1B2DD55391F1C6B3E6 /* Pods_SwiftGameDevelopmentCookbook.framework */; };
+		3803E5939C2365452F00010A /* Pods_SwiftGameDevelopmentCookbookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3DB9EE4F626CE20FA75A97 /* Pods_SwiftGameDevelopmentCookbookUITests.framework */; };
 		8483EEBE21D64D6C00ABA4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */; };
 		8483EEC021D64D6C00ABA4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */; };
 		8483EEC321D64D6C00ABA4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483EEC121D64D6C00ABA4E0 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		8483EECB21D64D6D00ABA4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483EEC921D64D6D00ABA4E0 /* LaunchScreen.storyboard */; };
 		8483EED621D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EED521D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift */; };
 		8483EEE121D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEE021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift */; };
+		8483EEF421D64F4F00ABA4E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEF321D64F4F00ABA4E0 /* MainView.swift */; };
+		D9EC0463C727037F01EA462C /* Pods_SwiftGameDevelopmentCookbookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96C81C2E1112FBBCE937869 /* Pods_SwiftGameDevelopmentCookbookTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		145DD8557212108492012CA2 /* Pods-SwiftGameDevelopmentCookbookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameDevelopmentCookbookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbookTests/Pods-SwiftGameDevelopmentCookbookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		342D337AF5CFAA1A65EE1C51 /* Pods-SwiftGameDevelopmentCookbookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameDevelopmentCookbookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbookTests/Pods-SwiftGameDevelopmentCookbookTests.release.xcconfig"; sourceTree = "<group>"; };
+		34565C1B2DD55391F1C6B3E6 /* Pods_SwiftGameDevelopmentCookbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGameDevelopmentCookbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9F7A105CF15638BA5B2C15 /* Pods-SwiftGameDevelopmentCookbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameDevelopmentCookbook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbook/Pods-SwiftGameDevelopmentCookbook.debug.xcconfig"; sourceTree = "<group>"; };
+		5E3DB9EE4F626CE20FA75A97 /* Pods_SwiftGameDevelopmentCookbookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGameDevelopmentCookbookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483EEBA21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGameDevelopmentCookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		8483EEDC21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameDevelopmentCookbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483EEE021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameDevelopmentCookbookUITests.swift; sourceTree = "<group>"; };
 		8483EEE221D64D6E00ABA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483EEF321D64F4F00ABA4E0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A96C81C2E1112FBBCE937869 /* Pods_SwiftGameDevelopmentCookbookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGameDevelopmentCookbookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4F5BE076E97CB65F0C6416 /* Pods-SwiftGameDevelopmentCookbookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameDevelopmentCookbookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbookUITests/Pods-SwiftGameDevelopmentCookbookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2AAAD2DBDC25442D79C68D /* Pods-SwiftGameDevelopmentCookbookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameDevelopmentCookbookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbookUITests/Pods-SwiftGameDevelopmentCookbookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9FAEE102D5C1BFBBBB7A5BF /* Pods-SwiftGameDevelopmentCookbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameDevelopmentCookbook.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbook/Pods-SwiftGameDevelopmentCookbook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE1E45A65A27BA8C8C50074 /* Pods_SwiftGameDevelopmentCookbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EC0463C727037F01EA462C /* Pods_SwiftGameDevelopmentCookbookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3803E5939C2365452F00010A /* Pods_SwiftGameDevelopmentCookbookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67B02C9FEFAA19ADCA97BE3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F7A105CF15638BA5B2C15 /* Pods-SwiftGameDevelopmentCookbook.debug.xcconfig */,
+				F9FAEE102D5C1BFBBBB7A5BF /* Pods-SwiftGameDevelopmentCookbook.release.xcconfig */,
+				145DD8557212108492012CA2 /* Pods-SwiftGameDevelopmentCookbookTests.debug.xcconfig */,
+				342D337AF5CFAA1A65EE1C51 /* Pods-SwiftGameDevelopmentCookbookTests.release.xcconfig */,
+				CB4F5BE076E97CB65F0C6416 /* Pods-SwiftGameDevelopmentCookbookUITests.debug.xcconfig */,
+				DD2AAAD2DBDC25442D79C68D /* Pods-SwiftGameDevelopmentCookbookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E70BA8206462534C4B4F64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34565C1B2DD55391F1C6B3E6 /* Pods_SwiftGameDevelopmentCookbook.framework */,
+				A96C81C2E1112FBBCE937869 /* Pods_SwiftGameDevelopmentCookbookTests.framework */,
+				5E3DB9EE4F626CE20FA75A97 /* Pods_SwiftGameDevelopmentCookbookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8483EEB121D64D6C00ABA4E0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				8483EED421D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests */,
 				8483EEDF21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests */,
 				8483EEBB21D64D6C00ABA4E0 /* Products */,
+				67B02C9FEFAA19ADCA97BE3F /* Pods */,
+				7E70BA8206462534C4B4F64B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +141,12 @@
 		8483EEBC21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */ = {
 			isa = PBXGroup;
 			children = (
-				8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */,
-				8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */,
-				8483EEC121D64D6C00ABA4E0 /* Main.storyboard */,
+				8483EEEE21D64DD000ABA4E0 /* Model */,
+				8483EEF021D64DDD00ABA4E0 /* View */,
+				8483EEEF21D64DD700ABA4E0 /* Controller */,
+				8483EEF121D64DE400ABA4E0 /* Singletons */,
 				8483EEC721D64D6D00ABA4E0 /* Assets.xcassets */,
+				8483EEC121D64D6C00ABA4E0 /* Main.storyboard */,
 				8483EEC921D64D6D00ABA4E0 /* LaunchScreen.storyboard */,
 				8483EECC21D64D6D00ABA4E0 /* Info.plist */,
 				8483EEC421D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld */,
@@ -128,6 +172,37 @@
 			path = SwiftGameDevelopmentCookbookUITests;
 			sourceTree = "<group>";
 		};
+		8483EEEE21D64DD000ABA4E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8483EEEF21D64DD700ABA4E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8483EEF021D64DDD00ABA4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8483EEF321D64F4F00ABA4E0 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8483EEF121D64DE400ABA4E0 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8483EEE521D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbook" */;
 			buildPhases = (
+				76C4B894003279987827E616 /* [CP] Check Pods Manifest.lock */,
 				8483EEB621D64D6C00ABA4E0 /* Sources */,
 				8483EEB721D64D6C00ABA4E0 /* Frameworks */,
 				8483EEB821D64D6C00ABA4E0 /* Resources */,
+				C2ED8E2714CC4592B8C4B083 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8483EEE821D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbookTests" */;
 			buildPhases = (
+				CC77CB0549AA75BD1BA1E4E4 /* [CP] Check Pods Manifest.lock */,
 				8483EECD21D64D6E00ABA4E0 /* Sources */,
 				8483EECE21D64D6E00ABA4E0 /* Frameworks */,
 				8483EECF21D64D6E00ABA4E0 /* Resources */,
@@ -170,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8483EEEB21D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbookUITests" */;
 			buildPhases = (
+				8229DFC939D71D28490946CE /* [CP] Check Pods Manifest.lock */,
 				8483EED821D64D6E00ABA4E0 /* Sources */,
 				8483EED921D64D6E00ABA4E0 /* Frameworks */,
 				8483EEDA21D64D6E00ABA4E0 /* Resources */,
@@ -254,12 +333,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76C4B894003279987827E616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftGameDevelopmentCookbook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8229DFC939D71D28490946CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftGameDevelopmentCookbookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2ED8E2714CC4592B8C4B083 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbook/Pods-SwiftGameDevelopmentCookbook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGameDevelopmentCookbook/Pods-SwiftGameDevelopmentCookbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC77CB0549AA75BD1BA1E4E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftGameDevelopmentCookbookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8483EEB621D64D6C00ABA4E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8483EEC021D64D6C00ABA4E0 /* ViewController.swift in Sources */,
+				8483EEF421D64F4F00ABA4E0 /* MainView.swift in Sources */,
 				8483EEBE21D64D6C00ABA4E0 /* AppDelegate.swift in Sources */,
 				8483EEC621D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld in Sources */,
 			);
@@ -434,9 +607,11 @@
 		};
 		8483EEE621D64D6E00ABA4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9F7A105CF15638BA5B2C15 /* Pods-SwiftGameDevelopmentCookbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXSYQXQB5J;
 				INFOPLIST_FILE = SwiftGameDevelopmentCookbook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +626,11 @@
 		};
 		8483EEE721D64D6E00ABA4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FAEE102D5C1BFBBBB7A5BF /* Pods-SwiftGameDevelopmentCookbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXSYQXQB5J;
 				INFOPLIST_FILE = SwiftGameDevelopmentCookbook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +645,7 @@
 		};
 		8483EEE921D64D6E00ABA4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145DD8557212108492012CA2 /* Pods-SwiftGameDevelopmentCookbookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +666,7 @@
 		};
 		8483EEEA21D64D6E00ABA4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342D337AF5CFAA1A65EE1C51 /* Pods-SwiftGameDevelopmentCookbookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +687,7 @@
 		};
 		8483EEEC21D64D6E00ABA4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4F5BE076E97CB65F0C6416 /* Pods-SwiftGameDevelopmentCookbookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +707,7 @@
 		};
 		8483EEED21D64D6E00ABA4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2AAAD2DBDC25442D79C68D /* Pods-SwiftGameDevelopmentCookbookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
