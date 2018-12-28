@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8483EEBE21D64D6C00ABA4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */; };
+		8483EEC021D64D6C00ABA4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */; };
+		8483EEC321D64D6C00ABA4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483EEC121D64D6C00ABA4E0 /* Main.storyboard */; };
+		8483EEC621D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEC421D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld */; };
+		8483EEC821D64D6D00ABA4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483EEC721D64D6D00ABA4E0 /* Assets.xcassets */; };
+		8483EECB21D64D6D00ABA4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483EEC921D64D6D00ABA4E0 /* LaunchScreen.storyboard */; };
+		8483EED621D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EED521D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift */; };
+		8483EEE121D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483EEE021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8483EED221D64D6E00ABA4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8483EEB221D64D6C00ABA4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8483EEB921D64D6C00ABA4E0;
+			remoteInfo = SwiftGameDevelopmentCookbook;
+		};
+		8483EEDD21D64D6E00ABA4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8483EEB221D64D6C00ABA4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8483EEB921D64D6C00ABA4E0;
+			remoteInfo = SwiftGameDevelopmentCookbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8483EEBA21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGameDevelopmentCookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8483EEC221D64D6C00ABA4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8483EEC521D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftGameDevelopmentCookbook.xcdatamodel; sourceTree = "<group>"; };
+		8483EEC721D64D6D00ABA4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8483EECA21D64D6D00ABA4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8483EECC21D64D6D00ABA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483EED121D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameDevelopmentCookbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483EED521D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameDevelopmentCookbookTests.swift; sourceTree = "<group>"; };
+		8483EED721D64D6E00ABA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483EEDC21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameDevelopmentCookbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483EEE021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameDevelopmentCookbookUITests.swift; sourceTree = "<group>"; };
+		8483EEE221D64D6E00ABA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8483EEB721D64D6C00ABA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483EECE21D64D6E00ABA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483EED921D64D6E00ABA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8483EEB121D64D6C00ABA4E0 = {
+			isa = PBXGroup;
+			children = (
+				8483EEBC21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */,
+				8483EED421D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests */,
+				8483EEDF21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests */,
+				8483EEBB21D64D6C00ABA4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8483EEBB21D64D6C00ABA4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8483EEBA21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.app */,
+				8483EED121D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.xctest */,
+				8483EEDC21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8483EEBC21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */ = {
+			isa = PBXGroup;
+			children = (
+				8483EEBD21D64D6C00ABA4E0 /* AppDelegate.swift */,
+				8483EEBF21D64D6C00ABA4E0 /* ViewController.swift */,
+				8483EEC121D64D6C00ABA4E0 /* Main.storyboard */,
+				8483EEC721D64D6D00ABA4E0 /* Assets.xcassets */,
+				8483EEC921D64D6D00ABA4E0 /* LaunchScreen.storyboard */,
+				8483EECC21D64D6D00ABA4E0 /* Info.plist */,
+				8483EEC421D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld */,
+			);
+			path = SwiftGameDevelopmentCookbook;
+			sourceTree = "<group>";
+		};
+		8483EED421D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				8483EED521D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift */,
+				8483EED721D64D6E00ABA4E0 /* Info.plist */,
+			);
+			path = SwiftGameDevelopmentCookbookTests;
+			sourceTree = "<group>";
+		};
+		8483EEDF21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8483EEE021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift */,
+				8483EEE221D64D6E00ABA4E0 /* Info.plist */,
+			);
+			path = SwiftGameDevelopmentCookbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8483EEB921D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483EEE521D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbook" */;
+			buildPhases = (
+				8483EEB621D64D6C00ABA4E0 /* Sources */,
+				8483EEB721D64D6C00ABA4E0 /* Frameworks */,
+				8483EEB821D64D6C00ABA4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGameDevelopmentCookbook;
+			productName = SwiftGameDevelopmentCookbook;
+			productReference = 8483EEBA21D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8483EED021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483EEE821D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbookTests" */;
+			buildPhases = (
+				8483EECD21D64D6E00ABA4E0 /* Sources */,
+				8483EECE21D64D6E00ABA4E0 /* Frameworks */,
+				8483EECF21D64D6E00ABA4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8483EED321D64D6E00ABA4E0 /* PBXTargetDependency */,
+			);
+			name = SwiftGameDevelopmentCookbookTests;
+			productName = SwiftGameDevelopmentCookbookTests;
+			productReference = 8483EED121D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8483EEDB21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483EEEB21D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbookUITests" */;
+			buildPhases = (
+				8483EED821D64D6E00ABA4E0 /* Sources */,
+				8483EED921D64D6E00ABA4E0 /* Frameworks */,
+				8483EEDA21D64D6E00ABA4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8483EEDE21D64D6E00ABA4E0 /* PBXTargetDependency */,
+			);
+			name = SwiftGameDevelopmentCookbookUITests;
+			productName = SwiftGameDevelopmentCookbookUITests;
+			productReference = 8483EEDC21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8483EEB221D64D6C00ABA4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8483EEB921D64D6C00ABA4E0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8483EED021D64D6E00ABA4E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8483EEB921D64D6C00ABA4E0;
+					};
+					8483EEDB21D64D6E00ABA4E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8483EEB921D64D6C00ABA4E0;
+					};
+				};
+			};
+			buildConfigurationList = 8483EEB521D64D6C00ABA4E0 /* Build configuration list for PBXProject "SwiftGameDevelopmentCookbook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8483EEB121D64D6C00ABA4E0;
+			productRefGroup = 8483EEBB21D64D6C00ABA4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8483EEB921D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */,
+				8483EED021D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests */,
+				8483EEDB21D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8483EEB821D64D6C00ABA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483EECB21D64D6D00ABA4E0 /* LaunchScreen.storyboard in Resources */,
+				8483EEC821D64D6D00ABA4E0 /* Assets.xcassets in Resources */,
+				8483EEC321D64D6C00ABA4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483EECF21D64D6E00ABA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483EEDA21D64D6E00ABA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8483EEB621D64D6C00ABA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483EEC021D64D6C00ABA4E0 /* ViewController.swift in Sources */,
+				8483EEBE21D64D6C00ABA4E0 /* AppDelegate.swift in Sources */,
+				8483EEC621D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483EECD21D64D6E00ABA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483EED621D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483EED821D64D6E00ABA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483EEE121D64D6E00ABA4E0 /* SwiftGameDevelopmentCookbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8483EED321D64D6E00ABA4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8483EEB921D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */;
+			targetProxy = 8483EED221D64D6E00ABA4E0 /* PBXContainerItemProxy */;
+		};
+		8483EEDE21D64D6E00ABA4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8483EEB921D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook */;
+			targetProxy = 8483EEDD21D64D6E00ABA4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8483EEC121D64D6C00ABA4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8483EEC221D64D6C00ABA4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8483EEC921D64D6D00ABA4E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8483EECA21D64D6D00ABA4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8483EEE321D64D6E00ABA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8483EEE421D64D6E00ABA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8483EEE621D64D6E00ABA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftGameDevelopmentCookbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getit.SwiftGameDevelopmentCookbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8483EEE721D64D6E00ABA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftGameDevelopmentCookbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getit.SwiftGameDevelopmentCookbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8483EEE921D64D6E00ABA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftGameDevelopmentCookbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getit.SwiftGameDevelopmentCookbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGameDevelopmentCookbook.app/SwiftGameDevelopmentCookbook";
+			};
+			name = Debug;
+		};
+		8483EEEA21D64D6E00ABA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftGameDevelopmentCookbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getit.SwiftGameDevelopmentCookbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGameDevelopmentCookbook.app/SwiftGameDevelopmentCookbook";
+			};
+			name = Release;
+		};
+		8483EEEC21D64D6E00ABA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftGameDevelopmentCookbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getit.SwiftGameDevelopmentCookbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftGameDevelopmentCookbook;
+			};
+			name = Debug;
+		};
+		8483EEED21D64D6E00ABA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftGameDevelopmentCookbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getit.SwiftGameDevelopmentCookbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftGameDevelopmentCookbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8483EEB521D64D6C00ABA4E0 /* Build configuration list for PBXProject "SwiftGameDevelopmentCookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483EEE321D64D6E00ABA4E0 /* Debug */,
+				8483EEE421D64D6E00ABA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8483EEE521D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483EEE621D64D6E00ABA4E0 /* Debug */,
+				8483EEE721D64D6E00ABA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8483EEE821D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483EEE921D64D6E00ABA4E0 /* Debug */,
+				8483EEEA21D64D6E00ABA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8483EEEB21D64D6E00ABA4E0 /* Build configuration list for PBXNativeTarget "SwiftGameDevelopmentCookbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483EEEC21D64D6E00ABA4E0 /* Debug */,
+				8483EEED21D64D6E00ABA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8483EEC421D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8483EEC521D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodel */,
+			);
+			currentVersion = 8483EEC521D64D6C00ABA4E0 /* SwiftGameDevelopmentCookbook.xcdatamodel */;
+			path = SwiftGameDevelopmentCookbook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8483EEB221D64D6C00ABA4E0 /* Project object */;
+}
