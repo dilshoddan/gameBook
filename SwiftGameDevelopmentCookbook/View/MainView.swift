@@ -48,21 +48,25 @@ class MainView: UIView {
         
         okButton = UIButton()
         okButton.setTitle("OK", for: .normal)
-        okButton.backgroundColor = UIColor.darkGray
+        //okButton.backgroundColor = UIColor.darkGray
+
         okButton.layer.cornerRadius = 5
         
         animateButton = UIButton()
         animateButton.setTitle("Animate", for: .normal)
-        animateButton.backgroundColor = UIColor.darkGray
+        //animateButton.backgroundColor = UIColor.darkGray
         animateButton.layer.cornerRadius = 5
         
         reDrawButton = UIButton()
         reDrawButton.setTitle("ReDraw", for: .normal)
-        reDrawButton.backgroundColor = UIColor.darkGray
+        //reDrawButton.backgroundColor = UIColor.darkGray
         reDrawButton.layer.cornerRadius = 5
+        
+        UIButton.appearance().backgroundColor = UIColor.darkGray
         
         subView = UIView(frame: UIScreen.main.bounds)
         subView.backgroundColor = UIColor.red
+        
     }
     
     func SetConstraints(){
