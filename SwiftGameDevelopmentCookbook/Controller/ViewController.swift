@@ -13,6 +13,7 @@ import Stevia
 class ViewController: UIViewController {
 
     private var mainView: MainView!
+    private var pauseMenuView: PauseMenu!
     var animator: UIDynamicAnimator?
     
     override func viewDidLoad() {
@@ -27,7 +28,9 @@ class ViewController: UIViewController {
 
     @objc
     func ReDrawView(){
-        mainView.SetUI()
+//        mainView.SetUI()
+        mainView.okButton.layer.removeAnimation(forKey: "spin")
+        
         print("The View is ReDrawn ")
     }
     
@@ -56,15 +59,47 @@ class ViewController: UIViewController {
 //        transform = transform.scaledBy(x: 0.5, y: 2)
 //        mainView.okButton.transform = transform
 
-        //Pop animation - EaseOut
-        let keyFrameAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
-        keyFrameAnimation.keyTimes = [0.0, 0.7, 1.0]
-        keyFrameAnimation.values = [0.0, 1.2, 1.0]
-        keyFrameAnimation.duration = 0.4
-        keyFrameAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
-        mainView.okButton.layer.add(keyFrameAnimation, forKey: "pop")
+        //POP ANIMATION - EaseOut
+//        let keyFrameAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
+//        keyFrameAnimation.keyTimes = [0.0, 0.7, 1.0]
+//        keyFrameAnimation.values = [0.0, 1.2, 1.0]
+//        keyFrameAnimation.duration = 0.4
+//        keyFrameAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+//        mainView.okButton.layer.add(keyFrameAnimation, forKey: "pop")
+        
+        //3D ANIMATION
+//        let animation = CABasicAnimation(keyPath: "transform.rotation.y")
+//        animation.fromValue = 0.0
+//        animation.toValue = .pi * 2.0
+//        animation.repeatCount = Float.infinity
+//        animation.duration = 2.0
+//        mainView.okButton.layer.add(animation, forKey: "spin")
+//
+//        var transform = CATransform3DIdentity
+//        transform.m34 = 1.0 / 500.0
+//        mainView.okButton.layer.transform = transform
+        
+//        let nib = UINib(nibName: "PauseMenu", bundle: nil)
+//        let loadedObjects = nib.instantiate(withOwner: self, options: nil)
+//        if let pauseMenuView = loadedObjects[0] as? UIView {
+//            self.view.addSubview(pauseMenuView)
+//            pauseMenuView.center = mainView.center
+//        }
+        
+//        self.pauseMenuView = PauseMenu(frame: CGRect(x: 10, y: 50, width: 100, height: 50))
+//        self.pauseMenuView.startButton.addTarget(self, action: #selector(StartButtonClicked), for: .touchUpInside)
+//        self.view.addSubview(pauseMenuView)
+
+        
+        
         
         print("Animated")
+    }
+    
+    
+    @objc func StartButtonClicked(){
+        self.pauseMenuView.removeFromSuperview()
+        
     }
     
     func SetUI(){
