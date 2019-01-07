@@ -13,13 +13,60 @@ import Stevia
 class ViewController: UIViewController {
 
     private var mainView: MainView!
+    var animator: UIDynamicAnimator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         SetUI()
         SetNotifications()
+        
+        self.animator = UIDynamicAnimator(referenceView: mainView)
+        mainView.animateButton.addTarget(self, action: #selector(GravityAnimation), for: .touchUpInside)
+        mainView.reDrawButton.addTarget(self, action: #selector(ReDrawView), for: .touchUpInside)
     }
 
+    @objc
+    func ReDrawView(){
+        mainView.SetUI()
+        print("The View is ReDrawn ")
+    }
+    
+    @objc
+    func GravityAnimation(){
+//        let anchor = CGPoint(x: self.view.bounds.width / 2, y:0)
+//        let attachment = UIAttachmentBehavior(item: mainView.okButton, attachedToAnchor: anchor)
+//        self.animator?.addBehavior(attachment)
+        
+        //Collision
+//        let collision = UICollisionBehavior(items: [mainView.okButton])
+////        collision.translatesReferenceBoundsIntoBoundary = true
+//        collision.setTranslatesReferenceBoundsIntoBoundary(with: UIEdgeInsets(top: 300, left: 50, bottom: 50, right: 50))
+//        self.animator?.addBehavior(collision)
+        
+        //Gravity
+//        let gravity = UIGravityBehavior(items: [mainView.okButton])
+//        self.animator?.addBehavior(gravity)
+        
+        //rotation
+//        mainView.okButton.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi / 2))
+        
+//        var transform = CGAffineTransform.identity
+//        transform = transform.translatedBy(x: 50, y: 0)
+//        transform = transform.rotated(by: CGFloat(Double.pi / 2))
+//        transform = transform.scaledBy(x: 0.5, y: 2)
+//        mainView.okButton.transform = transform
+
+        //Pop animation - EaseOut
+        let keyFrameAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
+        keyFrameAnimation.keyTimes = [0.0, 0.7, 1.0]
+        keyFrameAnimation.values = [0.0, 1.2, 1.0]
+        keyFrameAnimation.duration = 0.4
+        keyFrameAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        mainView.okButton.layer.add(keyFrameAnimation, forKey: "pop")
+        
+        print("Animated")
+    }
+    
     func SetUI(){
         SetControlDefaults()
         SetConstraints()
